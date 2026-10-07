@@ -1,0 +1,20 @@
+- function performs desired operation
+- can't use keywords for function names, but anything else is fine
+- functions always need a function call
+- return statements stop the code and send it back
+- blank return statement returns a value with type "none"
+- flow of execution is the order that the statements are executed
+- encapsulation wraps a piece of code ina function
+- Just as with mathematical functions, Python functions can be composed, meaning that you use the result of one function as the input to another.
+- modifiers change lists; changes are called side effects
+- pure function has no side effects, uses only parameters
+- Mainly use pure functions unless there is a clear advantage to using a modifier
+- The ability to call the same function with different types of data is called polymorphism
+- fucntion will handle a call as long as all operations are valid
+- A two-dimensional table is a table where you read the value at the intersection of a row and a column
+- Variables created inside a function definition are local
+- The organization of data for the purpose of making it easier to use is called a data structure
+- Modern programming languages generally support recursion, which means that functions can call themselves within their definitions
+- Whenever a runtime error occurs, it creates an exception
+- When the only thing returned from a function is a recursive call, it is referred to as tail recursion.
+
