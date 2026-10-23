@@ -21,7 +21,8 @@ d = {'2+1': '3','2+2': '4','2+3': '5'}
 
 def counts():
     """
-      >>> Please enter a string: THis String Has Upper and Lower case letters.
+    >>> counts()
+    >>> Please enter a string: THis String Has Upper and Lower case letters.
 
       a 3
       c 1
@@ -45,12 +46,12 @@ def counts():
     for char in string:
         if char.isalpha():
             if char in counts:
-                counts[char] =+ 1
+                counts[char] += 1
             else:
                 counts[char] = 1
     for char in sorted(counts):
         print(char, counts[char])
-counts()
+    counts()
 
 
 
