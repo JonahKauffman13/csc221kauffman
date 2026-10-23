@@ -48,11 +48,12 @@ def counts():
                 counts[char] =+ 1
             else:
                 counts[char] = 1
-
-
     for char in sorted(counts):
         print(char, counts[char])
-    counts()
+counts()
+
+
+
 
 if __name__ == '__main__':
     import doctest
